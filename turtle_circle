@@ -1,7 +1,12 @@
 import turtle
 
+form = turtle.Screen()
+form.bgcolor("yellow")
+
 deger = int(input("dairenizin yarı çapını giriniz"))
 yari_cap = int((deger / 2))
+
+
 
 turtle.circle(yari_cap)
 turtle.mainloop()
